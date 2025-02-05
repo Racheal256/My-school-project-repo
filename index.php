@@ -35,8 +35,10 @@ $conn->close();
             <input type="text" name="last_name" id="lastName" required>
          </p>
          <p>
-            <label for="Gender">Gender:</label>
-            <input type="text" name="gender" id="Gender" required>
+            </p><label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+        <input type="radio" name="gender" value="Other" required> Other
          </p>
          <p>
             <label for="Address">Address:</label>
